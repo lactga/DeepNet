@@ -2,10 +2,15 @@
 import math
 
 
-def logistic_function(x):
+def linear_logistic_function(x):
     """
-    ロジスティック関数
+    ロジスティック関数を線形で近似した関数
     :param x:
     :return:
     """
-    return 1 / (1 + math.exp(-x))
+    if x < -1:
+        return -1
+    elif x >= 1:
+        return 1
+    else:
+        return x
