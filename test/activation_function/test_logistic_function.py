@@ -1,6 +1,7 @@
 from unittest import TestCase
 from src.activation_function.logistic_function import logistic_function
 
+
 class TestLogistic_function(TestCase):
 
     def test_0(self):
