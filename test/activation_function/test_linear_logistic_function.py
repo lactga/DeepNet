@@ -2,7 +2,7 @@ from unittest import TestCase
 from src.activation_function.linear_logistic_function import linear_logistic_function
 
 
-class TestLogistic_function(TestCase):
+class TestLinear_logistic_function(TestCase):
 
     def test_0(self):
         self.assertEqual(linear_logistic_function(-5), -1)
