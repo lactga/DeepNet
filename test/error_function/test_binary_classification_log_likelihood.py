@@ -34,7 +34,7 @@ class TestLogistic_function(TestCase):
 
     def test_error3(self):
         x = None
-        y = np.array([1, 2, 3])
+        y = [1, 2, 3]
         with self.assertRaises(TypeError):
             mse(x, y)
 
